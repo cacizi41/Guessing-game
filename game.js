@@ -8,9 +8,9 @@ var a = document.getElementById('d');
 var b = document.getElementById('e');
 var c = document.getElementById('f');
 
-var x = document.getElementById('q');
-var y = document.getElementById('w');
-var z = document.getElementById('e');
+var x = document.getElementById('x');
+var y = document.getElementById('y');
+var z = document.getElementById('z');
 
 var photo1 = 'img/pulp-fiction.jpg'
 var photo2 = 'img/arcade-fire.jpg'
