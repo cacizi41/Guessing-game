@@ -8,6 +8,10 @@ var a = document.getElementById('d');
 var b = document.getElementById('e');
 var c = document.getElementById('f');
 
+var x = document.getElementById('q');
+var y = document.getElementById('w');
+var z = document.getElementById('e');
+
 var photo1 = 'img/pulp-fiction.jpg'
 var photo2 = 'img/arcade-fire.jpg'
 var photo3 = 'img/traffic-jam.jpg'
@@ -22,7 +26,7 @@ function question1() {
 		one.innerHTML = "Great! You got great taste!";
 		a.innerHTML = '<img src=' + photo1 + ' width="200" />';
 	}else{
-  		one.innerHTML = "I wish you would love it!";
+  		x.innerHTML = "I wish you would love it!";
 	}
 }
 question1();
@@ -33,7 +37,7 @@ function question2() {
 	  two.innerHTML = "we can be friends then!";
 	  b.innerHTML ='<img src=' + photo2 + ' width="200" />';
 	}else{
-	  two.innerHTML = "I would still be your friend.";
+	  y.innerHTML = "I would still be your friend.";
 	}
 }
 question2();
@@ -44,7 +48,7 @@ function question3() {
 	  three.innerHTML = "Great workout! You can shower there.";
 	  c.innerHTML = '<img src=' + photo3 + ' width="200" />';
 	}else{
-	three.innerHTML = "Traffic is horrible those days";
+	z.innerHTML = "Traffic is horrible those days";
 	}
 }
 
